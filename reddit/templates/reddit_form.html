@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+
+{% block title %}
+reddit
+{% endblock %}
+
+{% block content %}
+
+<h1 class="text-center  mt-4">Welcome to Django project</h1>
+
+<h2> 
+  {%if form.instance.pk %} 
+  Edit reddit 
+  {% else %} 
+  Create reddit 
+  {% endif %} 
+  <form  method="post" enctype="multipart/form-data" class="form">
+     {% csrf_token %}
+    {{ form.as_p }}
+    <button class="btn btn-warning" type="submit">Submit</button>
+  </form>
+  <a href="{% url 'reddit_list' %}">Back to reddit list</a>
+</h2>
+
+{% endblock %}

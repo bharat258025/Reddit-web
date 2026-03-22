@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+
+{% block title %}
+reddit
+{% endblock %}
+
+{% block content %}
+
+<h1 class="text-center  mt-4">Welcome to Django project</h1>
+
+<a class="btn btn-primary mb-4" href="{% url 'reddit_create' %}">Create a reddit</a>
+<div class="container row gap-3">
+  {% for reddit in  reddits %}
+  <div class="card" style="width: 18rem;">
+    <img src="{{reddit.photo.url}}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">{{reddit.user.username}}</h5>
+      <p class="card-text">{{reddit.text}}</p>
+      {% if reddit.user == user %}
+      <a href="{% url 'reddit_edit' reddit.id%}" class="btn btn-primary">Edit</a>
+      <a href="{% url 'reddit_delete' reddit.id%}" class="btn btn-danger">Delete</a>
+      {% endif %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+
+{% endblock %}
