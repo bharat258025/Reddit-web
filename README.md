@@ -46,10 +46,9 @@ http://127.0.0.1:8000/
 <img width="1901" height="956" alt="Screenshot 2026-03-22 133321" src="https://github.com/user-attachments/assets/d5665a54-aa7b-43c7-a9d6-5de9d560bc21" />
 <img width="1908" height="954" alt="Screenshot 2026-03-22 133515" src="https://github.com/user-attachments/assets/1b3712cb-cc69-4179-b515-98432e581cf5" />
 <img width="1907" height="931" alt="Screenshot 2026-03-22 134320" src="https://github.com/user-attachments/assets/1a1debd4-c021-4f3d-8991-96ccf05666ad" />
-<img width="1892" height="958" alt="Screenshot 2026-03-22 134451" src="https://github.com/user-attachments/assets/a6453801-2541-437e-a7ea-15a98f049ea0" />
-<img width="1907" height="953" alt="Screenshot 2026-03-22 133553" src="https://github.com/user-attachments/assets/bf0ec7b0-c93a-4ed8-aeda-999dd78521d6" />
 <img width="1895" height="956" alt="Screenshot 2026-03-22 133531" src="https://github.com/user-attachments/assets/552b4f62-e647-4306-ac27-28e505603ff4" />
-
+<img width="1907" height="953" alt="Screenshot 2026-03-22 133553" src="https://github.com/user-attachments/assets/bf0ec7b0-c93a-4ed8-aeda-999dd78521d6" />
+<img width="1892" height="958" alt="Screenshot 2026-03-22 134451" src="https://github.com/user-attachments/assets/a6453801-2541-437e-a7ea-15a98f049ea0" />
 
 📚 What I Learned  
 Gained hands-on experience with Django’s MVT (Model-View-Template) architecture  
