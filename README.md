@@ -21,7 +21,7 @@ Authentication: Django built-in auth system
 
 Clone the repository:  
 
-git clone https://github.com/bharat258025/reddit-clone.git  
+git clone https://github.com/bharat258025/reddit.git  
 cd reddit  
 
 Create a virtual environment:  
